@@ -21,8 +21,8 @@ nav{
   background-color: black;
   padding-top: 26px;
   padding-bottom: 26px;
-  padding-left: 120px;
-  padding-right: 120px;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
 nav a{
@@ -38,9 +38,29 @@ nav a{
 
 nav a:hover{
   background-color: rgb(50, 50, 50);
-  border-radius: 10px;
+  border-radius: 4px;
 }
 
 footer{
-  
+  background-color: black;
+  padding-top: 26px;
+  padding-bottom: 26px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+body{
+  font-family: "Inter", sans-serif;
+}
+
+body h1{
+
+}
+
+body p{
+  font-family: "Inter", sans-serif;
+}
+
+footer p{
+  font-family: "Inter", sans-serif;
 }
