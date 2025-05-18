@@ -10,28 +10,41 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
+
+    <style>
+        header {grid-area: header;}
+        nav {grid-area: nav;}
+        main {grid-area: main;}
+        aside {grid-area: aside;}
+        footer {grid-area: footer;}
+
+        .grid{
+            display: grid;
+            grid-template-areas: 
+            'header header header'
+            'nav nav nav'
+            'main main main'
+            'footer footer  footer';
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <header>
-                <img src="Metro 2033.png" alt="Metro 2033">
-            </header>
-        </div>
-
-        <nav>
-            <ul>
+    <div class="grid-container">
+        
+        <header>
+            <img src="Metro 2033.png" alt="Metro 2033">
+            <nav>
                 <a href="">squiggly</a>
                 <a href="">diggly</a>
                 <a href="">ahh</a>
                 <a href="">home</a>
-            </ul>
-        </nav>
+            </nav>
+        </header>
 
         <main>
-            <h1>
+            <h>
                 Delve into the metro's mysteries...
-            </h1>
+            </h>
             <p>
                 In 2033, a generation of underground Metro Station-Cities survives a devestating apocalyptic event. Artyom, born in the last days before the fire, embarks on a mission to warn mankind of a threat. His journey takes him from underground catacombs to desolate wastelands, where his actions will determine mankind's fate.
             </p>
