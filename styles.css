@@ -9,15 +9,17 @@ body{
   margin: auto;
   background-color: black;
 }
-  
-header{
-  max-width: max-content;
-}
 
 nav{
   text-align: center;
+  position: sticky;
+  top: 0;
   letter-spacing: 1px;
   padding: 20px;
+}
+
+nav ul li{
+  display: inline;
 }
 
 nav a{
