@@ -30,7 +30,7 @@ navbar ul li{
 navbar a{
   color: white;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 800;
   padding: 20px;
   margin-left: 30px;
@@ -58,6 +58,8 @@ main{
 main h1{
   font-family: "Inter", sans-serif;
   text-align: center;
+  font-size: 30px;
+  letter-spacing: ;
   color: white;
 }
 
@@ -76,13 +78,13 @@ footer{
 
 footer h1{
   font-family: "Inter", sans-serif;
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
   padding: 8px;
   color: white;
 }
 
-footer h4{
+footer p{
   font-family: "Inter", sans-serif;
   text-align: center;
   font-weight: 400;
